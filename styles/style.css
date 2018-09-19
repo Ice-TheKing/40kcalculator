@@ -1,0 +1,147 @@
+body
+{
+	background-image: url("../images/background.png");
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+
+section
+{
+	width: 60%;
+	
+	border: 1px solid black;
+	
+	padding: 10px;
+	margin:auto;
+	margin-top: 2em;
+	text-align: left;
+	
+	font-size:1.3em;
+	
+	background-color: rgba(110,190,210,0.7);
+}
+
+#main
+{
+	background-color: rgba(230,230,230,0.7);
+	width:28%;
+	position:relative;
+	float:left;
+	margin-left:19.3%;
+}
+
+#results
+{
+	width:26%;
+	position:relative;
+	float:right;
+	margin-right:19.3%;
+}
+
+h1
+{
+	text-align:center;
+	margin-top: 10px;
+	margin-bottom: 14px;
+	padding: 4px;
+	font-size:2em;
+	
+}
+
+h2
+{
+	text-align:center;
+	margin-top: 0px;
+	margin-bottom: 14px;
+	padding: 4px;
+	font-size:1em;
+}
+
+p
+{
+	margin-bottom:8px;
+}
+
+footer
+{
+	text-align:center;
+}
+
+span
+{
+	display:inline-block;
+}
+
+h3
+{
+	font-size:1em;
+	margin-top:60px;
+}
+
+#firstP
+{
+	margin-top:10px;
+}
+
+#info
+{
+	margin-bottom:50px;
+	margin-top:10px;
+}
+
+.inputField
+{
+	margin:auto;
+	margin-right:12px;
+	width:20px;
+}
+
+#bottom
+{
+	margin:auto;
+	position:relative;
+	margin-top:40px;
+	margin-bottom:50px;
+	
+}
+
+a:active 
+{
+	color:#fff;
+	text-decoration:none;
+}
+a:link, a:visited 
+{
+	color:#687AC7;
+	text-decoration:none;
+}
+a:hover 
+{
+	color: #966D3B;
+	text-decoration:none;
+}
+
+@media screen and (max-width: 900px)
+{
+#banner
+{
+	width:90%;
+}
+
+#results
+{
+	width:40%;
+	margin-right:3.6%;
+}
+
+#main
+{
+	width:40%;
+	margin-left:3.6%;
+}
+
+}
